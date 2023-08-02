@@ -19,8 +19,8 @@ tenor_user_prefix = os.environ.get("TENOR_USER_PREFIX")
 
 # Initializes your app with your bot token and signing secret
 app = App(
-    token=os.environ.get("SLACK_BOT_TOKEN")
-    # signing_secret=os.environ.get("SLACK_SIGNING_SECRET")
+    token=os.environ.get("SLACK_BOT_TOKEN"),
+    signing_secret=os.environ.get("SLACK_SIGNING_SECRET")
 )
 
 
