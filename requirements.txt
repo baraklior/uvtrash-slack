@@ -1,6 +1,5 @@
 fastapi
 pydantic
-requests
 json
 uvicorn
 slack_bolt
