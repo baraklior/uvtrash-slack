@@ -1,7 +1,4 @@
-fastapi
-pydantic
-json
-uvicorn
+pydantic<2
 slack_bolt
 python-dotenv
 
