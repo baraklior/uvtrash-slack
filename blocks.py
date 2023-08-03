@@ -20,7 +20,8 @@ def simple_response_block(url: str, search_str: str, random_gif: ResultItem) -> 
                     {
                         "type": "image",
                         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2qIqHI7E1o0IFdT4Dm3eCoI5rPk-g7t7KTA&usqp=CAU",
-                        "alt_text": "you have hovered upon the symbol of Trash!  Long live the great King Kadoshi and the fruit of his loins: Shiraz, Orpaz and Liraz"
+                        # "alt_text": "you have hovered upon the symbol of Trash!  Long live the great King Kadoshi and the fruit of his loins: Shiraz, Orpaz and Liraz"
+                        "alt_text": "אורפז לירז ושיראז מוסרות דש"
                     },
                     {
                         "type": "mrkdwn",
