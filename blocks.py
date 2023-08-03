@@ -3,6 +3,7 @@ from data_types import ResultItem
 
 def simple_response_block(url: str, search_str: str, random_gif: ResultItem) -> dict:
     return {
+        "response_type": "ephemeral",
         "blocks": [
             {
                 "type": "image",
